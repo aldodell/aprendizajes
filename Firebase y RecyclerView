@@ -1,0 +1,6 @@
+Para usar RecyclerView con Firebase UI hay que hacer varias cosas:
+
+1. Importar FirebaseUI
+2. Crear una clase modelo con los datos, definir propiedades. Esta clase NO PUEDE tener parámteros de construcción.
+3. Crear el objeto Options de FirebaseUI
+4. Crear el adaptador con FirebaseRecycleAdapter pasando las opciones anteriores.
